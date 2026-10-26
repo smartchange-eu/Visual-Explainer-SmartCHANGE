@@ -1,0 +1,29 @@
+{
+	"person_id": "10",
+	"Sex": 1, 
+	"Age_input": 15, 
+	"Age_output": [
+        22,
+        55
+    ], 
+	"country": "FIN", 
+	"Total_cholesterol": 4, 
+	"Glucose": 4.3, 
+	"Systolic_blood_pressure": 110, 
+	"Diastolic_blood_pressure": 77, 
+	"Smoking": 0, 
+	"Alcohol": 0.0, 
+	"Waist_circumference": 60, 
+	"Resting_heart_rate": 78, 
+	"Height": 145, 
+	"Weight": 45, 
+	"BMI": 21, 
+	"is_enough_happyplant": true, 
+	"has_diabetes": true, 
+	"has_cvd": true, 
+	"Sleep": 7.6, 
+	"Diet_HHS": 7.96212701477799, 
+	"Diet_T2P": 3,
+	"orig_var": ["person_id", "Sex", "Age_input", "Age_output", "country", "Total_cholesterol", "Glucose", "Systolic_blood_pressure", "Diastolic_blood_pressure", "Smoking", "Alcohol", "Waist_circumference", "Resting_heart_rate", "Height", "Weight", "BMI", "is_enough_happyplant", "has_diabetes", "has_cvd", "Sleep", "Diet_HHS", "Diet_T2P"
+    ]
+}

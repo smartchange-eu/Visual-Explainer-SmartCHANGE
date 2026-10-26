@@ -1,0 +1,189 @@
+[
+	{
+		"name": "Age",
+		"fixed": true,
+		"type": "Basic Features",
+		"replace": "Age",
+        "ifImpute": false,
+		"range": [0, 25] 
+	},
+	{
+		"name": "Sex",
+		"fixed": true,
+		"type": "Basic Features",
+		"replace": "Sex",
+        "ifImpute": false,
+		"dataType": "categorical"
+	},
+	{
+		"name": "Height",
+		"fixed": false,
+		"type": "Basic Features",
+		"replace": "Height",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [30, 250]
+	},
+	{
+		"name": "Weight",
+		"fixed": false,
+		"type": "Basic Features",
+		"replace": "Weight",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [1, 250]
+	},
+	{
+		"name": "BMI",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "BMI",
+		"dataType": "numerical",
+        "ifImpute": false,
+		"range": [5, 80]
+	},
+	{
+		"name": "PA_h_per_w",
+		"fixed": false,
+		"type": "Behavioural Markers",
+		"replace": "Physical Activity (Hours per week)",
+		"dataType": "numerical",
+        "ifImpute": false,
+		"range": [0, 60]
+	},
+	{
+		"name": "Alcohol",
+		"fixed": false,
+		"type": "Behavioural Markers",
+		"replace": "Alcohol",
+		"dataType": "numerical",
+        "ifImpute": false,
+		"range": [0, 150]
+	},
+	{
+		"name": "Diet_HHS",
+		"fixed": false,
+		"type": "Behavioural Markers",
+		"replace": "Diet Score (HHS)",
+		"dataType": "numerical",
+        "ifImpute": false,
+		"range": [0, 40]
+	},
+	{
+		"name": "Sleep",
+		"fixed": false,
+		"type": "Behavioural Markers",
+		"replace": "Sleep",
+		"dataType": "numerical",
+        "ifImpute": false,
+		"range": [0, 20]
+	},
+	{
+		"name": "Smoking",
+		"fixed": false,
+		"type": "Behavioural Markers",
+		"replace": "Smoking",
+		"dataType": "numerical",
+        "ifImpute": false,
+		"range": [0, 50]
+	},
+	{
+		"name": "Fitness_speed",
+		"fixed": false,
+		"type": "Behavioural Markers",
+		"replace": "Fitness speed",
+		"dataType": "numerical",
+        "ifImpute": false,
+		"range": [0, 50]
+	},
+	{
+		"name": "Waist_circumference",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "Waist Circumference",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [20, 180]
+	},
+	{
+		"name": "Diastolic_blood_pressure",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "Diastolic Blood Pressure",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [30, 130]
+	},
+	{
+		"name": "Systolic_blood_pressure",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "Systolic Blood Pressure",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [50, 250]
+	},
+	{
+		"name": "Resting_heart_rate",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "Resting Heart Rate",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [40, 220]
+	},
+	{
+		"name": "Diabetes",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "Diabetes",
+		"dataType": "categorical",
+        "ifImpute": true
+	},
+	{
+		"name": "Total_cholesterol",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "Total Cholesterol",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [1.0, 10.0]
+	},
+	{
+		"name": "HDL",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "HDL",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [0.3, 3.0]
+	},
+	{
+		"name": "LDL",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "LDL",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [0.5, 8.0]
+	},
+	{
+		"name": "Triglycerides",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "Triglycerides",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [0.1, 9.0]
+	},
+	{
+		"name": "Diet_T2P",
+		"fixed": false,
+		"type": "Health Markers",
+		"replace": "Diet Score (T2P)",
+		"dataType": "numerical",
+        "ifImpute": true,
+		"range": [0, 100]
+	}
+]
+

@@ -1,0 +1,26 @@
+{
+	"country" : "FIN",
+	"Sex" : 1,
+	"Age_input" : 15,
+	"Height": 145,
+	"Weight": 45, 
+	"Waist_circumference": 70, 
+	"BMI": 35,
+	"Systolic_blood_pressure": 110, 
+	"Diastolic_blood_pressure": 60,
+	"Resting_heart_rate": 78.17838743618641,
+	"Glucose": 4.44,
+	"Total_cholesterol": 4.144, 
+	"HDL": 1.554, 
+	"LDL": 2.59, 
+	"Triglycerides": 0.931468075074904, 
+	"Smoking": 1,
+	"Fitness_speed": 12,
+	"PA_h_per_w": 0, 
+	"Alcohol": 0, 
+	"Diabetes": 1.006361006854711, 
+	"Sleep": 5, 
+	"Diet_HHS": 2,
+	"Diet_T2P": 7
+}
+
